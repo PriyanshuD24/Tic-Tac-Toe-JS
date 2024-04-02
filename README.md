@@ -1,1 +1,3 @@
-# made a fun TicTacToe game from Html, JS, TailwindCSS# TicTacToe
+#  TicTacToe for Nerds 
+made from Html, JS, TailwindCSS
+https://nerdy-tictactoe.netlify.app
