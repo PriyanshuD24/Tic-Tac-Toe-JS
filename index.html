@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Game for nerds</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            background: rgb(0, 104, 125);
+            background: radial-gradient(circle, rgb(0, 69, 83) 0%, rgb(0, 0, 0) 100%);
+        }
+    </style>
+</head>
+
+<body class="w-[100vw] h-[100vh]   ">
+    <div class="wrapper flex flex-col justify-between items-center py-6 w-[100%] h-[100%]">
+        <div class="text-white top-head w-fit font-semibold text-xl bg-cyan-700 px-2 py-2 rounded-2xl  mx-auto">
+            Current player : X
+        </div>
+    
+        <!-- ---------------------- -->
+        <div class=" basis-[100%] flex justify-center items-center">
+            <div class="boxes w-[400px] h-[400px] text-white grid grid-cols-3 place-items-center  grid-rows-3 p-4  mx-auto  ">
+                <div
+                   id="box1"  class="   flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2 border-r-2  ">
+                     </div>
+                <div
+                    id="box2" class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2 border-r-2">
+                    </div>
+                <div
+                   id="box3"  class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2">
+                    </div>
+                <div
+                  id="box4"   class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2 border-r-2 ">
+                    </div>
+                <div
+                   id="box5"  class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2 border-r-2">
+                    </div>
+                <div
+                   id="box6"  class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-b-2">
+                    </div>
+                <div
+                   id="box7"  class="flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-r-2">
+                    </div>
+                <div
+                  id="box8"   class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%] border-white border-r-2">
+                    </div>
+                <div id="box9" class=" flex justify-center items-center font-semibold text-5xl   w-[100%] h-[100%]">
+                    </div>
+            </div>
+        
+        </div>
+    
+        <!-- ------------------------- -->
+        <footer class="h-[60px]">
+            <div class="text-white text-lg  bg-cyan-700 px-2 py-2 rounded-2xl hidden hover:cursor-pointer " id="ng">
+                New game
+            </div>
+        </footer>
+      
+    </div>
+   
+    
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
